@@ -1,3 +1,90 @@
-body {
-    color: green;
+.fa-apple:before {
+    color: white;
+    margin-left: auto;
+    margin-right: auto; 
+    display: block;
+}
+
+.nav-bar {
+    background-color: rgba(0,0,0,0.8);
+    height: 48px; 
+    width: 100%;
+    padding-top: 16px;
+    box-sizing: border-box;
+}
+
+.fa-bars:before {
+    color: white;
+}
+
+.fa-shopping-bag:before {
+    color: white;
+}
+
+.iphone {
+    background-color: rgb(250, 250, 250);
+    padding-bottom: 38px;
+}
+
+.iphone-big-text {
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+    line-height: 1.125;
+    font-weight: 500;
+    letter-spacing: .004em;
+    /* background-color: skyblue; */
+}
+
+.iphone-small-text {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 18px;
+    line-height: 1.42115;
+    font-weight: 360 !important;
+    letter-spacing: .012em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.iphone-small {
+    display: block;
+}
+
+.small-iphone {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: blue;
+    margin-top: 28px;
+    
+}
+
+.big-iphone{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+@media only screen and (max-width: 735px){
+    .big-iphone{
+        display: none;
+        width: 704px;
+        height: 148px;
+      }
+   
+      .small-iphone{
+        display: block;
+        width: 167px;
+        height: 333px;
+      }
+}
+
+@media screen and (min-width: 1069px){
+    .big-iphone{
+        width: 981px;
+        height: 207px;
+    }
 }
